@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
+platform :ios, '8.3'
+
+target 'LDBTests' do
+	pod 'Mantle'
+	pod 'Objective-LevelDB'
+	pod 'Realm'
+end
+
+target 'LDBTestsTests', exclusive: true do
+	pod 'Realm/Headers'
+	pod 'Mantle'
+	pod 'Objective-LevelDB'
+	pod 'OCMock', '~> 3.1'
+end

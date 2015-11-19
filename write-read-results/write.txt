@@ -1,0 +1,23 @@
+[WriteSpec testInsert10_CoreDataObjects_OneSave]' 				time: 0.015, stdev: 91.731%, values: [0.054562, 0.011356, 0.011032, 0.008164, 0.007831, 0.010751, 0.010998, 0.010006, 0.008248, 0.013253]
+[WriteSpec testInsert10_LevelDBObjectsInTransaction]' 			time: 0.068, stdev: 15.688%, values: [0.077050, 0.055720, 0.058911, 0.063285, 0.071864, 0.085764, 0.082820, 0.052341, 0.064944, 0.068624]
+[WriteSpec testInsert10_LevelDBObjectsWithoutTransaction]'	 		time: 0.064, stdev: 15.671%, values: [0.059397, 0.058241, 0.074943, 0.060580, 0.086926, 0.054244, 0.059004, 0.074575, 0.059011, 0.056860]
+[WriteSpec testInsert10_CoreDataObjects_saveOnEach]' 			time: 0.090, stdev: 3.171%, values: [0.090748, 0.092293, 0.087496, 0.092436, 0.088604, 0.092927, 0.086265, 0.093621, 0.086059, 0.093556]
+[WriteSpec testInsert10_RealmObjects]' 					time: 0.146, stdev: 6.009%, values: [0.158614, 0.145253, 0.154881, 0.147984, 0.143949, 0.155785, 0.133092, 0.136970, 0.148621, 0.132942]
+
+[WriteSpec testInsert100_CoreDataObjects_OneSave]' 				time: 0.027, stdev: 9.526%, values: [0.034023, 0.025470, 0.026297, 0.026406, 0.025236, 0.024108, 0.026496, 0.026590, 0.027700, 0.026142]
+[WriteSpec testInsert100_LevelDBObjectsInTransaction]' 			time: 0.083, stdev: 32.482%, values: [0.144652, 0.113590, 0.058686, 0.059992, 0.059251, 0.066950, 0.064692, 0.090957, 0.094252, 0.076052]
+[WriteSpec testInsert100_LevelDBObjectsWithoutTransaction]' 			time: 0.084, stdev: 33.308%, values: [0.135429, 0.138931, 0.082112, 0.063950, 0.059670, 0.059926, 0.066316, 0.075599, 0.081395, 0.072732]
+[WriteSpec testInsert100_CoreDataObjects_saveOnEach]' 			time: 0.916, stdev: 1.406%, values: [0.903463, 0.899191, 0.908969, 0.927663, 0.915289, 0.912267, 0.942728, 0.904695, 0.915656, 0.929306]
+[WriteSpec testInsert100_RealmObjects]' 					time: 0.197, stdev: 14.676%, values: [0.281119, 0.191713, 0.169401, 0.196323, 0.191294, 0.189766, 0.184779, 0.191349, 0.182649, 0.192056]
+
+[WriteSpec testInsert1_000_CoreDataObjects_OneSave]' 			time: 0.072, stdev: 35.087%, values: [0.146812, 0.057028, 0.057376, 0.062938, 0.063001, 0.060192, 0.066155, 0.069688, 0.069921, 0.067815]
+[WriteSpec testInsert1_000_LevelDBObjectsInTransaction]' 			time: 0.297, stdev: 21.913%, values: [0.491131, 0.277663, 0.270565, 0.275594, 0.267306, 0.271629, 0.278252, 0.278372, 0.275432, 0.279234]
+[WriteSpec testInsert1_000_LevelDBObjectsWithoutTransaction]'		time: 0.318, stdev: 2.759%, values: [0.332050, 0.311092, 0.309629, 0.314581, 0.312755, 0.315741, 0.317153, 0.310909, 0.315460, 0.336779]
+[WriteSpec testInsert1_000_RealmObjects]' 					time: 0.453, stdev: 2.043%, values: [0.465545, 0.452883, 0.437148, 0.469799, 0.443122, 0.449685, 0.455280, 0.459350, 0.449263, 0.451985]
+[WriteSpec testInsert1_000_CoreDataObjects_saveOnEach]' 			time: 9.247, stdev: 1.289%, values: [9.140490, 9.169426, 9.186164, 9.235528, 9.203104, 9.172144, 9.251834, 9.246350, 9.581353, 9.287220]
+
+[WriteSpec testInsert10_000_RealmObjects]' 					time: 1.099, stdev: 4.978%, values: [1.136033, 1.105841, 1.130941, 1.100671, 1.112266, 1.110685, 1.120135, 1.113736, 0.937755, 1.121699]
+[WriteSpec testInsert10_000_CoreDataObjects_OneSave]' 			time: 2.030, stdev: 44.369%, values: [0.710730, 0.745764, 0.947998, 1.580991, 2.175581, 2.818604, 2.579382, 2.737981, 2.926686, 3.080460]
+[WriteSpec testInsert10_000_LevelDBObjectsInTransaction]' 			time: 2.384, stdev: 1.727%, values: [2.422528, 2.374797, 2.449220, 2.390471, 2.361780, 2.347600, 2.353767, 2.345052, 2.343186, 2.455951]
+[WriteSpec testInsert10_000_LevelDBObjectsWithoutTransaction]' 		time: 2.852, stdev: 0.470%, values: [2.841150, 2.864297, 2.872108, 2.856296, 2.871024, 2.843920, 2.844369, 2.835338, 2.856307, 2.834068]
+[WriteSpec testInsert10_000_CoreDataObjects_saveOnEach]' 			time: 94.014, stdev: 0.851%, values: [92.778195, 92.711524, 93.570961, 93.880429, 94.512183, 94.674845, 93.593182, 94.710111, 94.527494, 95.179309]

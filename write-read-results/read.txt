@@ -1,0 +1,11 @@
+[ReadSpecs testAccessRandomRealmRecord]' 			time: 0.000, stdev: 64.774%, values: [0.000199, 0.000074, 0.000053, 0.000048, 0.000059, 0.000057, 0.000046, 0.000059, 0.000046, 0.000045]
+[ReadSpecs testAccessRandomLevelDBRecord]' 			time: 0.000, stdev: 38.395%, values: [0.000318, 0.000148, 0.000133, 0.000140, 0.000130, 0.000121, 0.000124, 0.000130, 0.000121, 0.000123]
+[ReadSpecs testAccessRandomCoreDataRecord]' 			time: 0.001, stdev: 25.502%, values: [0.001535, 0.000841, 0.000976, 0.000875, 0.001293, 0.001012, 0.000883, 0.000801, 0.000729, 0.000720]
+
+[ReadSpecs testAccessFirst100RealmRecords]' 			time: 0.004, stdev: 12.117%, values: [0.004334, 0.003187, 0.003265, 0.004171, 0.003650, 0.003931, 0.003155, 0.003797, 0.003219, 0.003105]
+[ReadSpecs testAccessFirst100LevelDBRecords]' 		time: 0.004, stdev: 18.281%, values: [0.006291, 0.003970, 0.003886, 0.003845, 0.003702, 0.004222, 0.004090, 0.003900, 0.003686, 0.003520]
+[ReadSpecs testAccessFirst100CoreDataRecords]' 		time: 0.004, stdev: 52.651%, values: [0.008388, 0.006423, 0.003738, 0.002499, 0.002792, 0.002820, 0.002653, 0.002457, 0.002448, 0.002664]
+
+[ReadSpecs testAccessSecond100RealmRecords]' 			time: 0.003, stdev: 5.3500%, values: [0.003652, 0.003257, 0.003137, 0.003085, 0.003081, 0.003115, 0.003095, 0.003061, 0.003071, 0.003143]
+[ReadSpecs testAccessSecond100LevelDBRecords]' 		time: 0.005, stdev: 23.077%, values: [0.006055, 0.005541, 0.005981, 0.005554, 0.004031, 0.003598, 0.003624, 0.003625, 0.003622, 0.003623]
+[ReadSpecs testAccessSecond100CoreDataRecords]' 		time: 0.007, stdev: 52.479%, values: [0.011340, 0.010851, 0.010526, 0.010050, 0.003924, 0.003795, 0.003524, 0.003391, 0.003619, 0.004211]

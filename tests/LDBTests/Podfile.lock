@@ -1,0 +1,27 @@
+PODS:
+  - leveldb-library (1.18.1)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
+  - Objective-LevelDB (2.1.4):
+    - leveldb-library (~> 1.18)
+  - OCMock (3.2)
+  - Realm (0.96.2):
+    - Realm/Headers (= 0.96.2)
+  - Realm/Headers (0.96.2)
+
+DEPENDENCIES:
+  - Mantle
+  - Objective-LevelDB
+  - OCMock (~> 3.1)
+  - Realm
+  - Realm/Headers
+
+SPEC CHECKSUMS:
+  leveldb-library: 4b0b6d3bdf102d072d6cf6e046615a6f88ea4bf1
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  Objective-LevelDB: 016f27f24c9976527938a40f043b585e82c27cfc
+  OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
+  Realm: 3ce8448151c571e90b85002d984d7f93f54fc8a3
+
+COCOAPODS: 0.39.0
